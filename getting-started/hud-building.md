@@ -16,7 +16,7 @@ You can use an existing Hytale `.ui` file as the base for your HUD.
 ```java
 HudBuilder.hudForPlayer(playerRef)
     .fromFile("Pages/MyHud.ui")
-    .show(playerRef);
+    .show();
 ```
 {% endcode %}
 
